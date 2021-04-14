@@ -1,4 +1,8 @@
 .calculator
+  &__conteiner
+    display: flex
+    flex-direction: column
+    align-items: center
   &__card
     background: #FFFFFF
     box-shadow: 0px 41px 72px -10px rgba(0, 0, 0, 0.1)
@@ -8,6 +12,9 @@
     padding-bottom: 29px
   &__contents
     padding: 44px 80px 35px 106px
+    display: flex
+    flex-direction: column
+    align-items: center
   &__name
     font-style: normal
     font-weight: normal
@@ -35,8 +42,12 @@
       padding-bottom: 27px
     &--last
       padding-bottom: 56px
-  &__resource
+  &__form
     position: relative
+  &__resource
+    display: flex
+    align-items: center
+    justify-content: space-between
   &__material
     font-style: normal
     font-weight: 200
@@ -55,6 +66,13 @@
     right: 50px
     background-color: #fff
     border: none
+  &__requer
+    padding-top: 12px
+    padding-bottom: 162px
+    font-style: normal
+    font-weight: 300
+    font-size: 16px
+    line-height: 20px
 .counter
   display: flex
   align-items: center
