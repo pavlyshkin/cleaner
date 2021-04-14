@@ -1,0 +1,80 @@
+.mainpage
+  &__title
+    margin-top: 0
+    margin-bottom: 15px
+  &-input
+    &__group
+      position: relative
+  &__subtitle
+    font-style: normal
+    font-weight: 500
+    font-size: 16px
+    line-height: 20px
+    text-align: center
+    color: #11325A
+    margin-bottom: 39px
+    margin-top: 0
+    display: block
+  &-info
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-bottom: 83px
+.card
+  width: 373px
+  height: 369px
+  background: #FFFFFF
+  box-shadow: 0px 31px 67px rgba(0, 0, 0, 0.08)
+  padding: 51px 53px 52px 53px
+  display: flex
+  align-items: center
+  flex-direction: column
+  margin-right: 42px
+  border-radius: 50px
+  &-image
+    object-fit: cover
+  &-title
+    margin-bottom: 17px
+    text-align: center
+  &-closeout
+    font-style: italic
+    font-weight: 800
+    font-size: 16px
+    line-height: 20px
+    text-align: center
+    color: #FF7400
+.bell
+  text-align: center
+
+  &-input
+    width: 209px
+    height: 46px
+    margin-bottom: 21px
+
+    &:last-child
+      margin-bottom: 27px
+  &-button
+    width: 267px
+    height: 73px
+.container
+  max-width: 1034px
+  margin: 0 auto
+label
+  &.invalid
+    position: absolute
+    content: ''
+    top: 47px
+    left: 30px
+    background-color: red
+    padding-left: 5px
+    padding-right: 5px
+    font-size: 13px
+    &::after
+      position: absolute
+      top: -5px
+      background-color: red
+      content: ''
+      width: 10px
+      height: 10px
+      transform: rotate(45deg)
+      left: 15px
